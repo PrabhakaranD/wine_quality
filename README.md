@@ -23,5 +23,8 @@ git add .
 
 git commit -m "first commit"
 
+git add . && git commit -m "update Readme.md"
 
-
+git remote add origin https://github.com/PrabhakaranD/wine_quality.git
+git branch -M main
+git push -u origin main
